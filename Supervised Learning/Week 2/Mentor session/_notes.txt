@@ -1,0 +1,21 @@
+Identify Risk Factors for Diseases - https://www.researchgate.net/publication/264260961_Determining_Risk_Factors_for_Ischemic_Heart_Disease_using_Logistic_Regression_and_Classification_Tree
+Classify Words, Nouns and Pronouns - https://www.aclweb.org/anthology/W19-3409
+Weather Forecasting Applications - Predicting if it will rain or not - https://www.kaggle.com/chandraroy/seattle-weather-forecast-using-logistic-regression
+Targeting voters with logistic regression - https://arxiv.org/pdf/1311.7326.pdf
+Stock Selection using Logistic Regression - https://hub.packtpub.com/using-logistic-regression-predict-market-direction-algorithmic-trading/
+--------------------------------
+ordinal data
+	increment number
+"odds"
+	=> probability
+	=> P/(1-P)
+	=> ln(P/(1-P))
+1 dependent variable is a logit
+find decision boundary = logistic regression
+>0.7 => strong correlation => drop 1
+coefficient ???
+imbalance classes = output 80/20 
+	=> need to preprocess
+need features with more variability
+Pseudo R-squ. => variability of model
+don't convert category to continuous variables

@@ -1,0 +1,27 @@
+bias classification => confusion matrix, classification_report
+most of time, DS fixed data
+recall or f1 > accuracy
+skew => median
+normal distribution => mean
+age <=> experience
+but don't drop, wait after modeling, if it's worse, then drop
+decision boundary, segregate 0 and 1
+pairplot + hue(=target column)
+bias => increase test size
+seed = 7
+np.ravel => vector to array
+recall => FN, missed opportunity
+------------------
+		Predict
+Actual 	0 		1
+0 		1770 	46
+1 		127 	57
+------------------
+Naive Bayes model (better)
+K Nearest Neighbours (worse) => scale the features
+Random Forest (optimize decision tree) => benchmark model
+------------------
+metrics.classification_report
+------------------
+bias variance tradeoff
+biased classification problems => smart sampling techniques

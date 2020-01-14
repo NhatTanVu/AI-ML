@@ -1,0 +1,5 @@
+|x| > 0.7 => strong correlation
+Y = intercept + coefficient*X
+bi-model distribution
+categorical => dummy variables
+kaggle house

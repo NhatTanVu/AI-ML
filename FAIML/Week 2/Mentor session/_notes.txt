@@ -1,0 +1,41 @@
+EDA - Exploratory data analytics
+	=> Spread of variables
+	=> Relationship between variables
+	=> Outliers in the dataset
+	=> Spot missing values in dataset
+Prescriptive analytics 
+	=> Predictive analytics 
+	=> Diagnostic analytics
+	=> Descriptive analytics (EDA)
+Statistically significant ???
+	=> 
+Stages of EDA
+	=> Univariate analysis
+	=> Bivariate analysis
+	=> Multivariate analysis
+Correlation (-1 -> 0 -> 1)
+	=> Heat map
+Matplotlib
+	=> Seaborn
+	=> Plotly = web-service for hosting graphs
+	=> Bokeh => interactive data library
+Types of data
+	=> Data types
+		=> Categorical => String
+		=> Numerical
+			=> Discrete => Number
+				=> Counting process
+			=> Continuous
+				=> Measuring process
+Chart selection
+	Histogram (Cont) <-> Bar chart (Cat)
+	Stacked bar
+Boxplot
+	Q1 = 25%, Q2 (Median) = 50%, Q3 = 75%
+	IQR = Q3 - Q1
+	Lower line = Median - 3*IQR
+	Upper line = Median + 3*IQR
+Correlation
+	Positive (X inc, Y inc)
+	Negative (X inc, Y dec)
+	0

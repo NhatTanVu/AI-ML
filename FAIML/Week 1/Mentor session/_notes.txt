@@ -1,0 +1,31 @@
+Lists vs Tuples vs Dictionary
+Tuples vs Lists are faster, less memory, by reference
+.unique(), .value_counts()
+Dictionary = key/value, efficient
+PD dataset, dataframe => groupby, sort_values, unique
+Merge => inner, outer, how='left'/'right'
+Merge => primary key
+Join => by index only
+---------------------
+Analyze Uber's driver data
+	Check missing values, remove or fill it
+	%matplotlib inline -> directly to notebook
+	df.head()/df.tail()
+	df.info()
+	df.shape --> not null
+	df.size
+	df.describe() --> desc for number columns
+	df.isnull().sum() --> num of missing values in each column
+	df.dropna()
+	len(df['START*']/unique()) --> 131 districts, not of single geography
+	len(df['STOP*']/unique()) --> 137 districts
+	df['START*'].value_counts().head(10) --> most popular start destinations
+	df2 = df[df['START*'] != 'Unknown Location']
+	def.groupy(['START*','STOP*'])['MILES'].sum().sort_values(ascending=False).head(10) --> Top 10 most driven locations - start and stop
+	df.apply --> change column format
+	df.groupby('month').mean()
+	df.rename()
+---------------------
+pkramthilak@gmail.com -> Ram
+Numpy/Pandas Cheat Sheet
+---------------------

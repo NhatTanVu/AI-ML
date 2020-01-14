@@ -1,0 +1,12 @@
+Decision Tree
+	- look for binary split
+	- old technique, for benchmarking
+	- find most important features
+	- could memorize but could be overfit, thus could not generalize
+	- give bins to data
+	- effective for small data, < 1 million rows
+entropy
+	- a measure of uncertainty
+imbalances in classes => need to combine values to balance the classes out
+(train% - test%) > 10% => overfitting
+lime datasciene python => library for visualize data

@@ -1,0 +1,44 @@
+collaborative filtering => network analysis
+import os
+	=> change working directory
+		=>	os.chdir(r"\\folder\path\")
+ratings
+	=> unix timestamp
+	=> yyyy-mm-dd hh:mm:ss.sss
+		=> automatically sorted
+.info()
+	=> Memory usage
+.isna()
+	=> No N/A value
+.read_csv()
+	=> encoding = 'latin-1'
+	=> .shape => .head
+movies dataset
+	=> one-hot encoding
+	=> Convert "Long table" to "Wide table" ("one-hot encoding")
+movies[movies['unknown'] == 1]
+	=> Drop "unknown" movies => Drop ratings for these movies		
+ratings.rating.value_counts()
+plt.bar()
+	=> matplotlib rgb colors
+		=> https://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
+%matplotlib inline
+sns.distplot for "Age"
+	=> show histogram
+	=> bias for age 20-30
+release_date => release_year
+	=> .str.split
+gender => countplot
+plt.figure(figsize=(15,6))
+plt.yticks(rotation=0)
+plt.xticks(rotation=90)
+genre by year
+	=> groupby('release_year').sum()
+	=> heatmap(genre_by_year, cmap="...")
+Display the top 25 movies by average rating
+	=> groupby('ItemID').count()
+	=> ratings.loc[] => Filter
+movies.columns
+likewise
+.groupby("Gender").sum().loc[...]
+combined chunking

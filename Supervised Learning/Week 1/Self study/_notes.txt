@@ -1,0 +1,4 @@
+https://scikit-learn.org/stable/modules/linear_model.html
+https://towardsdatascience.com/supervised-machine-learning-using-linear-regression-part1-ed59d0136be8
+https://stackoverflow.com/questions/332289/how-do-you-change-the-size-of-figures-drawn-with-matplotlib
+https://pbpython.com/pandas-crosstab.html
