@@ -1,0 +1,15 @@
+- For ensemble, models are different from each other.
+- Feature drift - tomorrow something can change.
+- Supervised learning use features that low bias >< low variance.
+	- High bias <=> less features
+	- High variance <=> more features
+	https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229
+- Overfitting = Low bias, high variance
+- AdaBoost is faster to converse than GradientBoost
+- BaggingClassifier - max_samples = 0.7
+-----------
+- DecissionTreeRegressor, RandomForestRegressor
+- Pipeline, Serialization, Deployment
+-----------
+r2d3.us/visual-intro-to-machine-learning-part-1/
+r2d3.us/visual-intro-to-machine-learning-part-2/
