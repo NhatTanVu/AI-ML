@@ -26,6 +26,5 @@ Analyze Uber's driver data
 	df.groupby('month').mean()
 	df.rename()
 ---------------------
-pkramthilak@gmail.com -> Ram
 Numpy/Pandas Cheat Sheet
 ---------------------
