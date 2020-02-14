@@ -1,0 +1,9 @@
+RandomForestRegressor
+FN is more important => Recall is more important
+	Penalize the model => Higher F1 score
+Not enough variance columns => Drop them
+Supposition
+Binning
+	labels + cut_points
+ML first >< EDA first
+Global minima

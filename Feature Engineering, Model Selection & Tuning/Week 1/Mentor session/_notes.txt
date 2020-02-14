@@ -1,0 +1,10 @@
+Feature engineering
+	Use domain knowledge to create features
+	Problem -> Collect data -> Algorithm -> Predict
+		Don't have time to collect data -> Use existing data
+	Find the most important features
+Tuning model
+	More empirical than theoretical
+{Ridge & Lasso + Polynominal features} mostly help for regression, not classification
+Drop variables that has high correlation
+RandomForestClassifier -> n_jobs

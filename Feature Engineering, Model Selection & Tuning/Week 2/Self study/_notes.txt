@@ -1,0 +1,18 @@
+CM      | Pred Pos  | Pred Neg
+------------------------------
+Act Pos | True Pos  | False Neg (P)
+------------------------------
+Act Neg | False Pos | True Neg  (N)
+------------------------------
+FN = Type II
+FP = Type I
+------------------------------
+Accuracy = (TP + TN)/All
+Sensitivity/Recall = TP/(TP+FN)
+Specificity = TN/(FP+TN)
+Precision = TP/(TP+FP)
+------------------------------
+ROC = Receiver Operating Characteristics
+FPR = FP/N = FP/(FP+TN)
+TPR = TP/P = TP/(TP+FN)
+------------------------------
