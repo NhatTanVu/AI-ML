@@ -1,0 +1,10 @@
+MCC - matthew correlation coefficient (Kaggle)
+Only scale test data, take care outlier on train and validation set
+train_test_split - stratify
+StandardScaler
+More continuous => Regression model seems better
+https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.over_sampling.SMOTE.html
+	bank prob -> check recall
+generate more range for the feature
+Polynominal feature mostly for time-series problem
+Threshold tuning

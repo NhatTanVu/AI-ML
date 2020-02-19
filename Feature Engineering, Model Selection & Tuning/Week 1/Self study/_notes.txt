@@ -1,0 +1,2 @@
+Anaconda Prompt
+	pip install mlxtend
