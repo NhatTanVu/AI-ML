@@ -1,0 +1,14 @@
+MAPE = Mean Absolute Percentage Error
+	=> On average, how many percentage of your predictions are off from the target values
+Residual plot function
+	yellow brick library
+	help(ResidualsPlot)
+	Fan shape => Hard to predict outliers
+	Dots grouped in diagonal lines => Many clusters
+	Residuals should be in normal distribution, variance is consistent, no stratas in residuals
+Gradient Boosting Regressor works well
+Normalize right skewed fields by np.log()
+Scale doesn't improve tree-based models, but can improve linear models
+Bayesian Optimization ???
+Mean squared error >< R2 squared error ???
+Can use cross-validation for measuring 95% confidence interval

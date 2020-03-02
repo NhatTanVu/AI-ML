@@ -1,0 +1,9 @@
+PCA - Data reduction, grouping data
+Unsupervised learning - Couldn't provide true answers
+from yellowbrick.cluster import KElbowVisualizer
+zscore = Standard Scaling
+Customer Segmentation = (k = 5->8)
+help(KElbowVisualizer)
+Distortion >< Silhoulette score
+df_z.iloc[:,:3] => Get all rows from columns 0, 1, 2
+K-Mean >< K-Median for dataset with extreme outliers
