@@ -1,0 +1,5 @@
+Group page names into cluster, predict if customer buys or not
+Pairplot + hue=<target_column>
+In real-time, model can get only 50-70 columns. However, dataset can get up to 700 columns.
+Clustering reduces number of column values on supervised learning.
+PCA reduces number of columns input to model.
