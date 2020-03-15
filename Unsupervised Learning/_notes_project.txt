@@ -1,0 +1,31 @@
+Silhoutte score = level of separation between clusters
+	=> Maximum avg Silhoutte score
+subset.profile_report(...)
+	https://towardsdatascience.com/10-simple-hacks-to-speed-up-your-data-analysis-in-python-ec18c6396e6b
+Silhoutte Visualizer
+	level of separation between clusters
+	many lines combined together
+	width = number of samples
+	intepret
+Scatter Plot
+	import plotly.express as px
+	px.scatter_3d
+Dendrogram
+	Cophenetic Coefficient = The higher value, the better dendrogram
+	But it should be better to look directly into the dendrogram
+crosstab
+df.where(pd.notna(df), df.median(), axis='columns')
+df.plot(...)
+	vert=False => Display box plot horizontally
+Upper threshold for outlier = 75% + 1.5 * IQR(mid 50%)
+tree-based model
+	no-need to treat outlier
+linear model >< non-linear model
+	treat outlier	
+large >< small dataset
+	large => can keep outliers, unless human-error
+	small => fix outliers to avoid overfit
+plotly vs seaborn
+cross_val_score
+Ensemble Models tend to overfit
+https://towardsdatascience.com/10-simple-hacks-to-speed-up-your-data-analysis-in-python-ec18c6396e6b
