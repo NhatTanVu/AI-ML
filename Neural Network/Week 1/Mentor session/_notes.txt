@@ -1,0 +1,17 @@
+The solution cannot handle data that was added as Compressed [solution should not try to decompress such data, as compression algorithm for it is unknown]
+----------------------------
+NN is computational expensive => require more GPU+RAM
+NN is better with larger dataset
+NN helps with feature-engineering
+----------------------------
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+tf.__version__
+----------------------------
+In Anaconda, we should install a new environment for upgrade and check if any scripts break in the new environment
+----------------------------
+Drop values to reduce overfitting
+If NN has hidden layer, we should not initialize zeros weight
+	https://datascience.stackexchange.com/questions/26134/initialize-perceptron-weights-with-zero
+Loss function for Regression = Mean squared error = avg((Y-Y^)^2)
+Loss function for Classification = Log loss
+Optimizer => Stochastic Gradient Descent
