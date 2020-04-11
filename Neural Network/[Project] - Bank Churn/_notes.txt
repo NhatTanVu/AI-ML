@@ -1,0 +1,4 @@
+Dropout
+	https://machinelearningmastery.com/how-to-reduce-overfitting-with-dropout-regularization-in-keras/
+Batch Normalization
+	https://machinelearningmastery.com/how-to-accelerate-learning-of-deep-neural-networks-with-batch-normalization/
