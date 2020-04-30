@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/43895750/keras-input-shape-for-conv2d-and-manually-loaded-images
