@@ -1,0 +1,32 @@
+- Max AUC/ROC-f1 score, Min gap between training & small dataset
+=> More features, more layers
+=> Acc heavily-weighted on true-negative
+- H2OAutoML framework algorithms
+	Supervised
+	Cox Proportional Hazards (CoxPH)
+	Deep Learning (Neural Networks)
+	Distributed Random Forest (DRF)
+	Generalized Linear Model (GLM)
+	Generalized Additive Models (GAM)
+	Gradient Boosting Machine (GBM)
+	Naïve Bayes Classifier
+	Stacked Ensembles
+	Support Vector Machine (SVM)
+	XGBoost
+- Install H2O
+	for 3.6:
+	conda create -n py36 python=3.6 anaconda
+	source activate py36
+	conda config --append channels conda-forge
+	conda install -c h2oai h2o
+	for 3.7: conda install -c h2oai h2o
+- Dropout => regularization, reducing gap
+- TensorBoard
+- NN => Non-linear => Don't care much about correlation
+- Split -> Scale
+- Single-squared bracket => Create Series
+- Double-squared bracket => Create DataFrames
+- Keras Callback EarlyStopping
+- Next NN layers usually have less number of nodes than previous ones
+- Sankey diagram
+	Visualize flow of observations
