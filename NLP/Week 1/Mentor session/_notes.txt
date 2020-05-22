@@ -1,0 +1,9 @@
+Normalization = Lowercase, don't = do not
+Stopword = is, are, etc...
+NLTK Punkt = Punkt Sentence Tokenizer. This tokenizer divides a text into a list of sentences...
+contraction = we've => we have
+-------------------------------
+PyCaret
+-------------------------------
+Anaconda environment
+-------------------------------

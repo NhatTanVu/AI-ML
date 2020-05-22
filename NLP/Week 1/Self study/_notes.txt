@@ -1,0 +1,13 @@
+NLTK - Natural Language Processing Toolkit
+Beautiful Soup - Scrap data from web, text cleaning with inbuilt parsers
+TextBlob - Simplified Text Processing
+spaCy - NLTK for production
+	NLTK was built by scholars and researchers as a tool to help you create complex NLP functions. It almost acts as a toolbox of NLP algorithms. 
+	In contrast, spaCy is similar to a service: it helps you get specific tasks done.
+Porter stemmer, Lancaster stemmer, Snowball stemmer
+Stemming >< Lemmatization: Inflection => Root word
+accented text
+nltk.tokenize.toktok
+Intall NLTK
+	Download dictionary | stopword list
+RE = regular expression library in Python
